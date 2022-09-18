@@ -1,8 +1,213 @@
 git:
   filters:
+    #DataColors
   - filter_type: file
     file_format: PROPERTIES
     source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/DataColors.properties
     source_language: en
-    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DataColors_<lang>.properties/'
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DataColors_<lang>.properties'
+    #DataContractPrices
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/DataContractPrices.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DataContractPrices_<lang>.properties'
+    #DataModelAsset
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/DataModelAsset.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DataModelAsset_<lang>.properties'
+    #DataModelIndustryJob
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/DataModelIndustryJob.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DataModelIndustryJob_<lang>.properties'
+    #DataModelPriceDataSettings
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/DataModelPriceDataSettings.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DataModelPriceDataSettings_<lang>.properties'
+    #DialoguesAbout
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesAbout.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesAbout_<lang>.properties'
+    #DialoguesAccount
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesAccount.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesAccount_<lang>.properties'
+    #DialoguesAddSystem
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesAddSystem.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesAddSystem_<lang>.properties'
+    #DialoguesBugs
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesBugs.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesBugs_<lang>.properties'
+    #DialoguesExport
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesExport.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesExport_<lang>.properties'
+    #DialoguesProfiles
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesProfiles.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesProfiles_<lang>.properties'
+    #DialoguesSettings
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesSettings.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesSettings_<lang>.properties'
+    #DialoguesStructure
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesStructure.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesStructure_<lang>.properties'
+    #DialoguesUpdate
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesUpdate.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/DialoguesUpdate_<lang>.properties'
+    #General
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/General.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/General_<lang>.properties'
+    #GuiFrame
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/GuiFrame.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/GuiFrame_<lang>.properties'
+    #GuiShared
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/GuiShared.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/GuiShared_<lang>.properties'
+    #TabsAssets
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsAssets.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsAssets_<lang>.properties'
+    #TabsContracts
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsContracts.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsContracts_<lang>.properties'
+    #TabsIndustrySlots
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsIndustrySlots.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsIndustrySlots_<lang>.properties'
+    #TabsItems
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsItems.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsItems_<lang>.properties'
+    #TabsJobs
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsJobs.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsJobs_<lang>.properties'
+    #TabsJournal
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsJournal.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsJournal_<lang>.properties'
+    #TabsLoadout
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsLoadout.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsLoadout_<lang>.properties'
+    #TabsMaterials
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsMaterials.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsMaterials_<lang>.properties'
+    #TabsOrders
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsOrders.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsOrders_<lang>.properties'
+    #TabsOverview
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsOverview.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsOverview_<lang>.properties'
+    #TabPriceHistory
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabPriceHistory.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabPriceHistory_<lang>.properties'
+    #TabsReprocessed
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsReprocessed.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsReprocessed_<lang>.properties'
+    #TabsRouting
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsRouting.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsRouting_<lang>.properties'
+    #TabsStockpile
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsStockpile.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsStockpile_<lang>.properties'
+    #TabsTracker
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsTracker.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsTracker_<lang>.properties'
+    #TabsTransaction
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsTransaction.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsTransaction_<lang>.properties'
+    #TabsTree
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsTree.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsTree_<lang>.properties'
+    #TabsValues
+  - filter_type: file
+    file_format: PROPERTIES
+    source_file: src/main/resources/net/nikr/eve/jeveasset/i18n/TabsValues.properties
+    source_language: en
+    translation_files_expression: 'src/main/resources/net/nikr/eve/jeveasset/i18n/TabsValues_<lang>.properties'
 
